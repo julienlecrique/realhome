@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5172e7e5-f377-4f21-b9e0-7629f53e3935" name="Default Changelist" comment="" />
+    <list default="true" id="5172e7e5-f377-4f21-b9e0-7629f53e3935" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/www.realhome.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/www.realhome.com.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhome/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhome/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhome/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhome/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhome/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhome/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhome/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhome/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhome/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhome/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhome/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhome/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhome/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +32,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="js" value="4" />
-          <entry key="php" value="76" />
+          <entry key="php" value="85" />
           <entry key="rnc" value="2" />
         </counts>
       </usages-collector>
@@ -30,33 +42,247 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="76" />
+          <entry key="PHP" value="85" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="RNG Compact" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="7344" />
-          <entry key="js" value="2" />
-          <entry key="php" value="3789" />
+          <entry key="css" value="8003" />
+          <entry key="js" value="16" />
+          <entry key="php" value="4162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="7344" />
-          <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="3789" />
+          <entry key="CSS" value="8003" />
+          <entry key="JavaScript" value="16" />
+          <entry key="PHP" value="4162" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="1217" lean-forward="true" selection-start-line="1217" selection-end-line="1236" selection-end-column="1" />
+            <state relative-caret-position="3600">
+              <caret line="706" column="1" selection-end-line="1525" />
+              <folding>
+                <element signature="e#0#327#0" />
+                <element signature="e#330#392#0" />
+                <element signature="e#399#475#0" />
+                <element signature="e#488#569#0" />
+                <element signature="e#581#653#0" />
+                <element signature="e#404#452#0" />
+                <element signature="e#461#555#0" />
+                <element signature="e#1184#1204#0" />
+                <element signature="e#1221#1282#0" />
+                <element signature="e#1298#1469#0" />
+                <element signature="e#1510#1650#0" />
+                <element signature="e#570#667#0" />
+                <element signature="e#686#804#0" />
+                <element signature="e#833#884#0" />
+                <element signature="e#914#940#0" />
+                <element signature="e#970#997#0" />
+                <element signature="e#1029#1171#0" />
+                <element signature="e#1208#1216#0" />
+                <element signature="e#1979#2227#0" />
+                <element signature="e#2265#2660#0" />
+                <element signature="e#2791#2821#0" />
+                <element signature="e#2876#3124#0" />
+                <element signature="e#3158#3549#0" />
+                <element signature="e#3668#3698#0" />
+                <element signature="e#1183#1276#0" />
+                <element signature="e#1295#1457#0" />
+                <element signature="e#1467#1705#0" />
+                <element signature="e#1719#1745#0" />
+                <element signature="e#1756#1784#0" />
+                <element signature="e#1797#1825#0" />
+                <element signature="e#1837#1860#0" />
+                <element signature="e#1926#2102#0" />
+                <element signature="e#3085#3126#0" />
+                <element signature="e#3143#3390#0" />
+                <element signature="e#3410#3473#0" />
+                <element signature="e#3490#3719#0" />
+                <element signature="e#5359#5419#0" />
+                <element signature="e#5443#5561#0" />
+                <element signature="e#5576#5665#0" />
+                <element signature="e#5688#5774#0" />
+                <element signature="e#5792#6008#0" />
+                <element signature="e#6028#6103#0" />
+                <element signature="e#6126#6223#0" />
+                <element signature="e#6245#6387#0" />
+                <element signature="e#6406#6461#0" />
+                <element signature="e#6469#6541#0" />
+                <element signature="e#6560#6661#0" />
+                <element signature="e#6678#6772#0" />
+                <element signature="e#6792#6948#0" />
+                <element signature="e#6968#7241#0" />
+                <element signature="e#7251#7410#0" />
+                <element signature="e#7424#7454#0" />
+                <element signature="e#7468#7531#0" />
+                <element signature="e#7543#7636#0" />
+                <element signature="e#7648#7693#0" />
+                <element signature="e#7714#7778#0" />
+                <element signature="e#7790#7854#0" />
+                <element signature="e#7870#7892#0" />
+                <element signature="e#7907#8001#0" />
+                <element signature="e#8019#8117#0" />
+                <element signature="e#8137#8165#0" />
+                <element signature="e#8184#8270#0" />
+                <element signature="e#11852#11907#0" />
+                <element signature="e#11922#11999#0" />
+                <element signature="e#12017#12063#0" />
+                <element signature="e#12082#12104#0" />
+                <element signature="e#12136#12224#0" />
+                <element signature="e#12234#12470#0" />
+                <element signature="e#12486#12584#0" />
+                <element signature="e#12599#12656#0" />
+                <element signature="e#12673#12742#0" />
+                <element signature="e#12761#12812#0" />
+                <element signature="e#12829#12880#0" />
+                <element signature="e#12901#12979#0" />
+                <element signature="e#12365#12400#0" />
+                <element signature="e#13000#13078#0" />
+                <element signature="e#13101#13183#0" />
+                <element signature="e#13197#13243#0" />
+                <element signature="e#13283#13291#0" />
+                <element signature="e#13962#13970#0" />
+                <element signature="e#13260#13383#0" />
+                <element signature="e#13399#13471#0" />
+                <element signature="e#13491#13696#0" />
+                <element signature="e#13713#13801#0" />
+                <element signature="e#13819#13840#0" />
+                <element signature="e#13856#13912#0" />
+                <element signature="e#14399#14470#0" />
+                <element signature="e#14486#14608#0" />
+                <element signature="e#14625#14729#0" />
+                <element signature="e#14748#14770#0" />
+                <element signature="e#14787#14854#0" />
+                <element signature="e#14882#14972#0" />
+                <element signature="e#14997#15065#0" />
+                <element signature="e#15096#15168#0" />
+                <element signature="e#15201#15220#0" />
+                <element signature="e#15240#15311#0" />
+                <element signature="e#14564#14616#0" />
+                <element signature="e#14634#14705#0" />
+                <element signature="e#15319#15394#0" />
+                <element signature="e#15403#15424#0" />
+                <element signature="e#15440#15611#0" />
+                <element signature="e#14929#15176#0" />
+                <element signature="e#15194#15405#0" />
+                <element signature="e#15416#15487#0" />
+                <element signature="e#16369#16465#0" />
+                <element signature="e#16490#16585#0" />
+                <element signature="e#16613#16702#0" />
+                <element signature="e#16727#16748#0" />
+                <element signature="e#16774#16865#0" />
+                <element signature="e#16890#16960#0" />
+                <element signature="e#16987#17037#0" />
+                <element signature="e#17068#17116#0" />
+                <element signature="e#17147#17193#0" />
+                <element signature="e#17218#17243#0" />
+                <element signature="e#17273#17343#0" />
+                <element signature="e#17374#17399#0" />
+                <element signature="e#17468#17582#0" />
+                <element signature="e#17616#17703#0" />
+                <element signature="e#17744#17850#0" />
+                <element signature="e#17886#18100#0" />
+                <element signature="e#18138#18213#0" />
+                <element signature="e#18254#18351#0" />
+                <element signature="e#18391#18484#0" />
+                <element signature="e#18519#18612#0" />
+                <element signature="e#18649#18743#0" />
+                <element signature="e#18974#19059#0" />
+                <element signature="e#19088#19193#0" />
+                <element signature="e#19217#19267#0" />
+                <element signature="e#19279#19304#0" />
+                <element signature="e#19330#19429#0" />
+                <element signature="e#19449#19517#0" />
+                <element signature="e#19536#19608#0" />
+                <element signature="e#19630#19747#0" />
+                <element signature="e#19040#19107#0" />
+                <element signature="e#18885#18910#0" />
+                <element signature="e#18934#19034#0" />
+                <element signature="e#19047#19140#0" />
+                <element signature="e#19163#19214#0" />
+                <element signature="e#19238#19337#0" />
+                <element signature="e#19125#19255#0" />
+                <element signature="e#19281#19302#0" />
+                <element signature="e#19773#19868#0" />
+                <element signature="e#19905#20021#0" />
+                <element signature="e#20037#20127#0" />
+                <element signature="e#20143#20215#0" />
+                <element signature="e#20230#20350#0" />
+                <element signature="e#20366#20456#0" />
+                <element signature="e#20472#20562#0" />
+                <element signature="e#20591#20672#0" />
+                <element signature="e#20682#20701#0" />
+                <element signature="e#20721#20796#0" />
+                <element signature="e#20812#20837#0" />
+                <element signature="e#20849#20898#0" />
+                <element signature="e#20914#20994#0" />
+                <element signature="e#21012#21103#0" />
+                <element signature="e#21113#21170#0" />
+                <element signature="e#21178#21200#0" />
+                <element signature="e#21206#21348#0" />
+                <element signature="e#21358#21468#0" />
+                <element signature="e#21491#21587#0" />
+                <element signature="e#21609#21756#0" />
+                <element signature="e#22654#22662#0" />
+                <element signature="e#21782#21805#0" />
+                <element signature="e#21826#21992#0" />
+                <element signature="e#22015#22038#0" />
+                <element signature="e#22050#22131#0" />
+                <element signature="e#22147#22169#0" />
+                <element signature="e#22182#22209#0" />
+                <element signature="e#22234#22256#0" />
+                <element signature="e#22284#22362#0" />
+                <element signature="e#22383#22408#0" />
+                <element signature="e#22524#22651#0" />
+                <element signature="e#22675#22871#0" />
+                <element signature="e#22897#22971#0" />
+                <element signature="e#23000#23097#0" />
+                <element signature="e#23107#23277#0" />
+                <element signature="e#23286#23336#0" />
+                <element signature="e#23342#23470#0" />
+                <element signature="e#23516#23611#0" />
+                <element signature="e#23637#23732#0" />
+                <element signature="e#23754#23775#0" />
+                <element signature="e#23820#23911#0" />
+                <element signature="e#23930#23999#0" />
+                <element signature="e#24026#24076#0" />
+                <element signature="e#24085#24093#0" />
+                <element signature="e#24097#24145#0" />
+                <element signature="e#24143#24189#0" />
+                <element signature="e#24449#24457#0" />
+                <element signature="e#24527#24535#0" />
+                <element signature="e#24214#24239#0" />
+                <element signature="e#24269#24339#0" />
+                <element signature="e#24370#24395#0" />
+                <element signature="e#24515#24667#0" />
+                <element signature="e#24676#24724#0" />
+                <element signature="e#24743#24773#0" />
+                <element signature="e#24790#24857#0" />
+                <element signature="e#24877#24898#0" />
+                <element signature="e#24928#24953#0" />
+                <element signature="e#24994#25043#0" />
+                <element signature="e#25084#25202#0" />
+                <element signature="e#25243#25264#0" />
+                <element signature="e#25297#25484#0" />
+                <element signature="e#25526#25576#0" />
+                <element signature="e#25624#25645#0" />
+                <element signature="e#25691#25725#0" />
+                <element signature="e#25742#25895#0" />
+                <element signature="e#25924#25949#0" />
+                <element signature="e#25966#26080#0" />
+                <element signature="e#26100#26129#0" />
+                <element signature="e#26148#26197#0" />
+                <element signature="e#26216#26261#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,17 +290,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="165" column="27" lean-forward="true" selection-start-line="165" selection-start-column="27" selection-end-line="165" selection-end-column="27" />
+            <state relative-caret-position="555">
+              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+              <folding>
+                <element signature="e#203#452#0#HTML" />
+                <element signature="e#314#333#0#HTML" expanded="true" />
+                <element signature="e#462#693#0#HTML" />
+                <element signature="e#703#1152#0#HTML" />
+                <element signature="e#1162#3455#0#HTML" />
+                <element signature="e#4083#5043#0#HTML" />
+                <element signature="e#4481#4969#0#HTML" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/home.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-end-line="36" />
+            <state relative-caret-position="30">
+              <caret line="2" column="87" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +320,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="84" column="54" lean-forward="true" selection-start-line="84" selection-start-column="54" selection-end-line="84" selection-end-column="54" />
+            <state relative-caret-position="178">
+              <caret line="96" column="14" lean-forward="true" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -91,17 +329,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="881">
+              <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/single-agents.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/taxonomy-ville.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="88" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="88" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -109,17 +347,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+            <state relative-caret-position="270">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/contact.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/gabarit-proprietes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="300">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -127,17 +365,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="135">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/single-proprietes.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+            <state relative-caret-position="165">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -171,10 +409,17 @@
       <find>single-propriete-proprietes-card</find>
       <find>nos-actualites</find>
       <find>nos-actualites h2</find>
+      <find>rpwwt-post-excerpt</find>
+      <find>description</find>
+      <find>footer-menu-3</find>
+      <find>comment-reply-link</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -183,7 +428,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/taxonomy-ville.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/taxonomy-ville.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/realhome/script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/single-proprietes.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/gabarit-apropos.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/single-categorie.php" />
@@ -191,13 +435,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/category.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/single-agents.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/realhome/404.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/contact.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/realhome/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/functions.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/realhome/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/realhome/script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/realhome/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/realhome/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/realhome/404.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/realhome/style.css" />
       </list>
     </option>
   </component>
@@ -211,6 +457,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -233,6 +480,19 @@
               <item name="www.realhome.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="www.realhome.com" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www.realhome.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www.realhome.com" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="recent-posts-widget-with-thumbnails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www.realhome.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www.realhome.com" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,14 +501,6 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="realhome" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www.realhome.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www.realhome.com" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="realhome" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,17 +548,17 @@
       <option name="presentableId" value="Default" />
       <updated>1547800409778</updated>
       <workItem from="1547800411136" duration="95237000" />
-      <workItem from="1548287377542" duration="13998000" />
+      <workItem from="1548287377542" duration="29463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109235000" />
+    <option name="totallyTimeSpent" value="124700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18437119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1007326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -319,34 +571,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32985386" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" visible="true" weight="0.13569938" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.13569938" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18437119" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32985386" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -430,38 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/gabarit-proprietes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/taxonomy-ville.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -472,66 +675,340 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/single-agents.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/single-proprietes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="88" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="88" />
+        <state relative-caret-position="150">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/contact.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/single-agents.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="360">
+          <caret line="24" column="88" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/fields/clone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="811" column="30" selection-start-line="811" selection-start-column="30" selection-end-line="811" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-customize-widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="711" column="25" selection-start-line="711" selection-start-column="25" selection-end-line="711" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/single-proprietes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="165" column="27" lean-forward="true" selection-start-line="165" selection-start-column="27" selection-end-line="165" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="84" column="54" lean-forward="true" selection-start-line="84" selection-start-column="54" selection-end-line="84" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+        <state relative-caret-position="881">
+          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/header.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="87" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/gabarit-proprietes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/taxonomy-ville.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="e#203#452#0#HTML" />
+            <element signature="e#314#333#0#HTML" expanded="true" />
+            <element signature="e#462#693#0#HTML" />
+            <element signature="e#703#1152#0#HTML" />
+            <element signature="e#1162#3455#0#HTML" />
+            <element signature="e#4083#5043#0#HTML" />
+            <element signature="e#4481#4969#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="96" column="14" lean-forward="true" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/realhome/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="1217" lean-forward="true" selection-start-line="1217" selection-end-line="1236" selection-end-column="1" />
+        <state relative-caret-position="3600">
+          <caret line="706" column="1" selection-end-line="1525" />
+          <folding>
+            <element signature="e#0#327#0" />
+            <element signature="e#330#392#0" />
+            <element signature="e#399#475#0" />
+            <element signature="e#488#569#0" />
+            <element signature="e#581#653#0" />
+            <element signature="e#404#452#0" />
+            <element signature="e#461#555#0" />
+            <element signature="e#1184#1204#0" />
+            <element signature="e#1221#1282#0" />
+            <element signature="e#1298#1469#0" />
+            <element signature="e#1510#1650#0" />
+            <element signature="e#570#667#0" />
+            <element signature="e#686#804#0" />
+            <element signature="e#833#884#0" />
+            <element signature="e#914#940#0" />
+            <element signature="e#970#997#0" />
+            <element signature="e#1029#1171#0" />
+            <element signature="e#1208#1216#0" />
+            <element signature="e#1979#2227#0" />
+            <element signature="e#2265#2660#0" />
+            <element signature="e#2791#2821#0" />
+            <element signature="e#2876#3124#0" />
+            <element signature="e#3158#3549#0" />
+            <element signature="e#3668#3698#0" />
+            <element signature="e#1183#1276#0" />
+            <element signature="e#1295#1457#0" />
+            <element signature="e#1467#1705#0" />
+            <element signature="e#1719#1745#0" />
+            <element signature="e#1756#1784#0" />
+            <element signature="e#1797#1825#0" />
+            <element signature="e#1837#1860#0" />
+            <element signature="e#1926#2102#0" />
+            <element signature="e#3085#3126#0" />
+            <element signature="e#3143#3390#0" />
+            <element signature="e#3410#3473#0" />
+            <element signature="e#3490#3719#0" />
+            <element signature="e#5359#5419#0" />
+            <element signature="e#5443#5561#0" />
+            <element signature="e#5576#5665#0" />
+            <element signature="e#5688#5774#0" />
+            <element signature="e#5792#6008#0" />
+            <element signature="e#6028#6103#0" />
+            <element signature="e#6126#6223#0" />
+            <element signature="e#6245#6387#0" />
+            <element signature="e#6406#6461#0" />
+            <element signature="e#6469#6541#0" />
+            <element signature="e#6560#6661#0" />
+            <element signature="e#6678#6772#0" />
+            <element signature="e#6792#6948#0" />
+            <element signature="e#6968#7241#0" />
+            <element signature="e#7251#7410#0" />
+            <element signature="e#7424#7454#0" />
+            <element signature="e#7468#7531#0" />
+            <element signature="e#7543#7636#0" />
+            <element signature="e#7648#7693#0" />
+            <element signature="e#7714#7778#0" />
+            <element signature="e#7790#7854#0" />
+            <element signature="e#7870#7892#0" />
+            <element signature="e#7907#8001#0" />
+            <element signature="e#8019#8117#0" />
+            <element signature="e#8137#8165#0" />
+            <element signature="e#8184#8270#0" />
+            <element signature="e#11852#11907#0" />
+            <element signature="e#11922#11999#0" />
+            <element signature="e#12017#12063#0" />
+            <element signature="e#12082#12104#0" />
+            <element signature="e#12136#12224#0" />
+            <element signature="e#12234#12470#0" />
+            <element signature="e#12486#12584#0" />
+            <element signature="e#12599#12656#0" />
+            <element signature="e#12673#12742#0" />
+            <element signature="e#12761#12812#0" />
+            <element signature="e#12829#12880#0" />
+            <element signature="e#12901#12979#0" />
+            <element signature="e#12365#12400#0" />
+            <element signature="e#13000#13078#0" />
+            <element signature="e#13101#13183#0" />
+            <element signature="e#13197#13243#0" />
+            <element signature="e#13283#13291#0" />
+            <element signature="e#13962#13970#0" />
+            <element signature="e#13260#13383#0" />
+            <element signature="e#13399#13471#0" />
+            <element signature="e#13491#13696#0" />
+            <element signature="e#13713#13801#0" />
+            <element signature="e#13819#13840#0" />
+            <element signature="e#13856#13912#0" />
+            <element signature="e#14399#14470#0" />
+            <element signature="e#14486#14608#0" />
+            <element signature="e#14625#14729#0" />
+            <element signature="e#14748#14770#0" />
+            <element signature="e#14787#14854#0" />
+            <element signature="e#14882#14972#0" />
+            <element signature="e#14997#15065#0" />
+            <element signature="e#15096#15168#0" />
+            <element signature="e#15201#15220#0" />
+            <element signature="e#15240#15311#0" />
+            <element signature="e#14564#14616#0" />
+            <element signature="e#14634#14705#0" />
+            <element signature="e#15319#15394#0" />
+            <element signature="e#15403#15424#0" />
+            <element signature="e#15440#15611#0" />
+            <element signature="e#14929#15176#0" />
+            <element signature="e#15194#15405#0" />
+            <element signature="e#15416#15487#0" />
+            <element signature="e#16369#16465#0" />
+            <element signature="e#16490#16585#0" />
+            <element signature="e#16613#16702#0" />
+            <element signature="e#16727#16748#0" />
+            <element signature="e#16774#16865#0" />
+            <element signature="e#16890#16960#0" />
+            <element signature="e#16987#17037#0" />
+            <element signature="e#17068#17116#0" />
+            <element signature="e#17147#17193#0" />
+            <element signature="e#17218#17243#0" />
+            <element signature="e#17273#17343#0" />
+            <element signature="e#17374#17399#0" />
+            <element signature="e#17468#17582#0" />
+            <element signature="e#17616#17703#0" />
+            <element signature="e#17744#17850#0" />
+            <element signature="e#17886#18100#0" />
+            <element signature="e#18138#18213#0" />
+            <element signature="e#18254#18351#0" />
+            <element signature="e#18391#18484#0" />
+            <element signature="e#18519#18612#0" />
+            <element signature="e#18649#18743#0" />
+            <element signature="e#18974#19059#0" />
+            <element signature="e#19088#19193#0" />
+            <element signature="e#19217#19267#0" />
+            <element signature="e#19279#19304#0" />
+            <element signature="e#19330#19429#0" />
+            <element signature="e#19449#19517#0" />
+            <element signature="e#19536#19608#0" />
+            <element signature="e#19630#19747#0" />
+            <element signature="e#19040#19107#0" />
+            <element signature="e#18885#18910#0" />
+            <element signature="e#18934#19034#0" />
+            <element signature="e#19047#19140#0" />
+            <element signature="e#19163#19214#0" />
+            <element signature="e#19238#19337#0" />
+            <element signature="e#19125#19255#0" />
+            <element signature="e#19281#19302#0" />
+            <element signature="e#19773#19868#0" />
+            <element signature="e#19905#20021#0" />
+            <element signature="e#20037#20127#0" />
+            <element signature="e#20143#20215#0" />
+            <element signature="e#20230#20350#0" />
+            <element signature="e#20366#20456#0" />
+            <element signature="e#20472#20562#0" />
+            <element signature="e#20591#20672#0" />
+            <element signature="e#20682#20701#0" />
+            <element signature="e#20721#20796#0" />
+            <element signature="e#20812#20837#0" />
+            <element signature="e#20849#20898#0" />
+            <element signature="e#20914#20994#0" />
+            <element signature="e#21012#21103#0" />
+            <element signature="e#21113#21170#0" />
+            <element signature="e#21178#21200#0" />
+            <element signature="e#21206#21348#0" />
+            <element signature="e#21358#21468#0" />
+            <element signature="e#21491#21587#0" />
+            <element signature="e#21609#21756#0" />
+            <element signature="e#22654#22662#0" />
+            <element signature="e#21782#21805#0" />
+            <element signature="e#21826#21992#0" />
+            <element signature="e#22015#22038#0" />
+            <element signature="e#22050#22131#0" />
+            <element signature="e#22147#22169#0" />
+            <element signature="e#22182#22209#0" />
+            <element signature="e#22234#22256#0" />
+            <element signature="e#22284#22362#0" />
+            <element signature="e#22383#22408#0" />
+            <element signature="e#22524#22651#0" />
+            <element signature="e#22675#22871#0" />
+            <element signature="e#22897#22971#0" />
+            <element signature="e#23000#23097#0" />
+            <element signature="e#23107#23277#0" />
+            <element signature="e#23286#23336#0" />
+            <element signature="e#23342#23470#0" />
+            <element signature="e#23516#23611#0" />
+            <element signature="e#23637#23732#0" />
+            <element signature="e#23754#23775#0" />
+            <element signature="e#23820#23911#0" />
+            <element signature="e#23930#23999#0" />
+            <element signature="e#24026#24076#0" />
+            <element signature="e#24085#24093#0" />
+            <element signature="e#24097#24145#0" />
+            <element signature="e#24143#24189#0" />
+            <element signature="e#24449#24457#0" />
+            <element signature="e#24527#24535#0" />
+            <element signature="e#24214#24239#0" />
+            <element signature="e#24269#24339#0" />
+            <element signature="e#24370#24395#0" />
+            <element signature="e#24515#24667#0" />
+            <element signature="e#24676#24724#0" />
+            <element signature="e#24743#24773#0" />
+            <element signature="e#24790#24857#0" />
+            <element signature="e#24877#24898#0" />
+            <element signature="e#24928#24953#0" />
+            <element signature="e#24994#25043#0" />
+            <element signature="e#25084#25202#0" />
+            <element signature="e#25243#25264#0" />
+            <element signature="e#25297#25484#0" />
+            <element signature="e#25526#25576#0" />
+            <element signature="e#25624#25645#0" />
+            <element signature="e#25691#25725#0" />
+            <element signature="e#25742#25895#0" />
+            <element signature="e#25924#25949#0" />
+            <element signature="e#25966#26080#0" />
+            <element signature="e#26100#26129#0" />
+            <element signature="e#26148#26197#0" />
+            <element signature="e#26216#26261#0" />
+          </folding>
         </state>
       </provider>
     </entry>

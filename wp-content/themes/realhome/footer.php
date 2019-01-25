@@ -26,9 +26,10 @@
                 FAX: <?php echo the_field('fax-footer','option') ?>
             </p>
             </br>
-            <a href="mailto:<?php echo the_field('adresse-footer','option') ?>"><?php echo the_field('mail-footer','option') ?></a>
+            <a href="mailto:<?php echo the_field('mail-footer','option') ?>"><?php echo the_field('mail-footer','option') ?></a>
         </div>
 
 </footer>
+
 </body>
 </html>

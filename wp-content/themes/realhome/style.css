@@ -10,12 +10,39 @@
 Text Domain:  page-builder-framework-child
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+    color: black;
+    font-family: raleway;
+}
+
+/*////////////////////////////////
+//                              //
+//     DECLARATION DES FONTS    //
+//                              //
+////////////////////////////////*/
+
+@font-face {
+    font-family: playfair;
+    src: url("fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: raleway;
+    src: url("fonts/Raleway-Regular.ttf");
+}
+
+/*////////////////////////////////////
+//                                  //
+//     STYLE DU TEMPLATE HEADER     //
+//                                  //
+////////////////////////////////////*/
 
 header a {
     text-decoration: none;
@@ -30,6 +57,35 @@ header {
     box-shadow: 0 2px 10px gray;
 }
 
+header nav div {
+    width: 100%;
+}
+
+header nav div {
+    display: inline-block;
+    width: calc(100% - 200px);
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin: 0px;
+    position: relative;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+header nav ul li {
+    padding: 0px 20px;
+    position: relative;
+    list-style-type: none;
+    height: 100px;
+    align-items: center;
+    display: flex;
+}
+
 .header-menu {
     display: flex;
     font-family: "playfair";
@@ -37,7 +93,7 @@ header {
     margin-right: 0px;
 }
 
-.header-menu-logo{
+.header-menu-logo {
     width: 150px;
     display: inline-block;
     margin-top: 30px;
@@ -50,7 +106,7 @@ header {
     margin-bottom: 5px;
 }
 
-.header-menu-menuprincipal a{
+.header-menu-menuprincipal a {
     margin-left: 16px;
 }
 
@@ -68,10 +124,86 @@ header {
     transition: background-color 0.5s ease-in;
 }
 
-.header-menu-menusecondaire a:hover{
+.header-menu-menusecondaire a:hover {
     background-color: black;
     color: white;
 }
+
+/* Underline From Center  */
+
+.header-menu-menuprincipal a {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.header-menu-menuprincipal a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #797979;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.header-menu-menuprincipal a:hover:before, .header-menu-menuprincipal a:focus:before, .header-menu-menuprincipal a:active:before {
+    left: 0;
+    right: 0;
+}
+
+/* Underline From Center */
+
+.header-menu-menuville a {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.header-menu-menuville a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: red;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.header-menu-menuville a:hover:before, .header-menu-menuville a:focus:before, .header-menu-menuville a:active:before {
+    left: 0;
+    right: 0;
+}
+
+/*////////////////////////////////////
+//                                  //
+//    STYLE DU TEMPLATE FRONTPAGE   //
+//                                  //
+////////////////////////////////////*/
+
+/* Style de la bannière  */
 
 .banniere {
     position: relative;
@@ -91,6 +223,8 @@ header {
     color: white;
 }
 
+/* Style de détails */
+
 .detail {
     display: flex;
     flex-direction: row;
@@ -103,9 +237,11 @@ header {
     color: #3C3C3C;
 
 }
+
 .detail-card {
     margin-left: 70px;
 }
+
 .detail i {
     margin-bottom: 20px;
 }
@@ -118,13 +254,7 @@ header {
     color: #797979;
 }
 
-body {
-    background-color: white;
-    color: black;
-}
-
-
-.badge{
+.badge {
     font-size: 1.5em;
     background-color: #00a0d2;
     border: 2px #00a0d2 solid;
@@ -134,10 +264,13 @@ body {
     margin-top: 90px;
 }
 
+/* Style de la description  */
+
 .description {
     display: flex;
     width: 1500px;
 }
+
 .description h2 {
     font-family: playfair;
     font-size: 30px;
@@ -155,6 +288,7 @@ body {
 .description span {
     font-size: 47px;
     text-align: right;
+    color: red;
 }
 
 .description p {
@@ -170,177 +304,8 @@ body {
     text-align: left;
 }
 
-header nav div {
-    width: 100%;
-}
+/* style des cards propriétés   */
 
-header nav div {
-    display:inline-block;
-    width:calc(100% - 200px);
-}
-
-header nav ul {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    margin: 0px;
-    position: relative;
-    padding-right: 0px;
-    padding-left: 0px;
-
-}
-
-header nav ul li {
-    padding: 0px 20px;
-    position: relative;
-    list-style-type: none;
-    height: 100px;
-    align-items: center;
-    display: flex;
-}
-
-header nav ul li ul{
-    position: absolute;
-    width: 250px;
-    padding: 10px 0px;
-    background-color: #fff;
-    top: 100px;
-    box-shadow: 1px 1px 8px #000;
-    height: auto;
-    display: none;
-}
-
-header nav ul li ul li{
-    padding: 10px 20px;
-}
-
-header nav ul li ul li a{
-    color: #000;
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-header nav ul li ul li{
-    height: 40px;
-}
-
-header nav ul li:hover ul{
-    display: block;
-}
-
-header nav ul li:hover ul li ul{
-    display: none;
-}
-
-header nav ul li ul li:hover ul {
-    display: block;
-}
-
-header nav ul li ul li:hover ul li ul{
-    display: none;
-}
-
-header nav ul li ul li ul li:hover ul {
-    display: block;
-}
-
-header nav ul li ul li ul{
-    display: none;
-    top: -10px;
-    left: calc(100%);
-}
-
-header nav ul li a{
-
-    text-decoration: none;
-}
-
-
-
-.article-content{
-    position: relative;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px #ff0000;
-}
-
-.arti {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-
-.bloc-top {
-    color: white;
-    text-shadow: 1px 2px black ;
-    height: 60px;
-    text-align: center;
-}
-
-
-.property {
-    position: relative;
-    overflow: hidden;
-    height: 250px;
-    margin: 20px 20px;
-    width: calc(100% / 3 - 40px);
-}
-
-
-.property .overlay {
-    position: absolute;
-    bottom: -30px;
-    width: 100%;
-    transition: 0.5s;
-    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.75) 100%);
-}
-
-.property:hover .overlay {
-    bottom: 0;
-}
-
-.property .overlay .info {
-    padding: 0 10px;
-}
-
-.property .overlay .info h3 {
-    margin: 10px 0;
-    color: white;
-}
-
-.property .overlay .more-info {
-    background-color: #073855;
-    color: white;
-    font-size: 0.8em;
-    display: flex;
-}
-
-.property .overlay .more-info .property-info {
-    flex-grow: 1;
-    text-align: center;
-    line-height: 30px;
-}
-
-.property .overlay .more-info .property-info i.fa {
-    opacity: 0.5;
-}
-
-.bloc-truc {
-    display: flex;
-    flex-wrap:wrap;
-    flex-grow:3;
-    justify-content: center;
-    padding-top: 60px;
-}
-
-.nos-proprietes span {
-    text-transform: capitalize;
-}
 .propriete {
     background-color: #F6F6F6;
     font-family: raleway;
@@ -365,13 +330,13 @@ header nav ul li a{
 .propriete-container {
     display: flex;
     flex-wrap: wrap;
-    flex-grow:3;
+    flex-grow: 3;
     margin-bottom: 100px;
 }
 
 .propriete-card {
     width: 400px;
-    border: 1px solid ;
+    border: 1px solid;
     margin-left: 50px;
     margin-right: 50px;
     flex-grow: 1;
@@ -394,8 +359,6 @@ header nav ul li a{
     font-size: 0.9em;
     padding-bottom: 10px;
 }
-
-
 
 .titre-proprietes {
     text-align: center;
@@ -438,7 +401,8 @@ header nav ul li a{
 
 .footer-propriete {
     display: flex;
-    padding-bottom: 10px;padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     justify-content: space-evenly;
     border-top: 1px solid #E6E6E6;
     color: #797979;
@@ -458,6 +422,8 @@ header nav ul li a{
     margin-top: 70px;
 }
 
+/* Style des cards agents  */
+
 .agents {
     font-family: raleway;
     text-align: left;
@@ -465,23 +431,26 @@ header nav ul li a{
     padding-top: 50px;
     display: flex;
     color: #3C3C3C;
-margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .agent-card {
     text-decoration: none;
 }
+
 .agent-photo {
     width: 350px;
     height: auto;
     margin-right: 50px;
 }
+
 .agents h2 {
     font-weight: bold;
     margin-top: 50px;
     font-size: 2em;
     margin-bottom: 10px;
 }
+
 .agents h3 {
     margin-top: 30px;
     color: #3C3C3C;
@@ -499,10 +468,11 @@ margin-bottom: 100px;
     color: #797979;
 }
 
-
 .titre-agent {
     display: flex;
 }
+
+/* Styles des partenaires  */
 
 .partenaires {
     margin-top: 100px;
@@ -529,202 +499,11 @@ margin-bottom: 100px;
     height: 55px;
 }
 
-
-/*footer nav ul {
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    font-size: 1.5em;
-
-}
-footer nav ul li {
-    list-style-type: none;
-    padding-left: 20px;
-    padding-right: 20px;
-}*/
-
-@font-face {
-    font-family: playfair;
-    src: url("fonts/PlayfairDisplay-Regular.ttf");
-}
-
-@font-face {
-    font-family: raleway;
-    src: url("fonts/Raleway-Regular.ttf");
-}
-
-/* Underline From Center */
-.header-menu-menuprincipal a {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    overflow: hidden;
-}
-.header-menu-menuprincipal a:before  {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 51%;
-    right: 51%;
-    bottom: 0;
-    background: #797979;
-    height: 2px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-}
-.header-menu-menuprincipal a:hover:before, .header-menu-menuprincipal a:focus:before, .header-menu-menuprincipal a:active:before {
-    left: 0;
-    right: 0;
-}
-
-/* Underline From Center */
-.header-menu-menuville a {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    overflow: hidden;
-}
-.header-menu-menuville a:before  {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 51%;
-    right: 51%;
-    bottom: 0;
-    background: red;
-    height: 2px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-}
-.header-menu-menuville a:hover:before, .header-menu-menuville a:focus:before, .header-menu-menuville a:active:before {
-    left: 0;
-    right: 0;
-}
-
-footer {
-    background-color: #303030;
-    font-family: raleway;
-    font-weight: normal;
-    font-size: 0.9em;
-    color: white;
-    text-decoration: none;
-}
-
-footer  {
-    color: white;
-    text-decoration: none;
-}
-
-footer nav ul li {
-    list-style-type: none;
-}
-
-.footer-menu-1 {
-    float: left;
-    padding-left: 65px;
-    padding-top: 65px;
-}
-
-.footer-menu-logo {
-    width: 150px;
-}
-
-.footer-menu-menusecondaire {
-    margin-top: 15px;
-}
-
-.menu-menu-principal-container ul li a {
-
-    text-decoration: none;
-    color: black;
-}
-
-.menu-menu-reseau-sociaux-container ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 150px;
-    color: black;
-}
-
-.footer-menu-menuprincipal nav ul li a {
-    color: white;
-}
-
-.footer-menu-menusecondaire li {
-    color: black;
-    width: 33px;
-    height: 33px;
-    padding-top: 6px;
-    border: 1px #303030 solid;
-    border-radius: 100%;
-    background-color: white;
-    text-align: center;
-}
-
-.footer-menu-menusecondaire nav ul li a {
-    color: #303030;
-    text-decoration: none;
-}
-
-.footer-menu-menusecondaire nav ul li:hover a {
-     color: white;
- }
-
-.footer-menu-menusecondaire nav ul li:hover {
-    background-color: #303030;
-}
-
-.footer-menu-2 {
-    font-family: raleway;
-    display: inline-block;
-    padding-top: 65px;
-    padding-left: 200px;
-    padding-bottom: 65px;
-    line-height: 30px;
-}
-
-.footer-menu-menuprincipal {
-    margin-top: 13px;
-}
-
-.footer-menu-3 {
-    font-family: raleway;
-    padding-top: 65px;
-    float: right;
-    color: white;
-    padding-right: 200px;
-}
-
-.footer-menu-3 h2 {
-    padding-bottom: 20px;
-}
-
-.footer-menu-3 p {
-    padding-top: 10px;
-}
-
-.footer-menu-3 a {
-    margin-top: 50px;
-    color: #E2574C;
-}
+/*////////////////////////////////////
+//                                  //
+//    STYLE DU TEMPLATE A PROPOS    //
+//                                  //
+////////////////////////////////////*/
 
 .a-propos {
     font-family: raleway;
@@ -753,6 +532,8 @@ footer nav ul li {
     width: 700px;
 }
 
+/* Style de l'équipe  */
+
 .equipe {
 
     display: flex;
@@ -761,7 +542,7 @@ footer nav ul li {
     justify-content: space-around;
     background-color: white;
     vertical-align: center;
-    padding: 100px 100px;
+    padding: 80px 100px;
     font-family: raleway;
     color: #3C3C3C;
 }
@@ -784,7 +565,7 @@ footer nav ul li {
     color: #797979;
 }
 
-.equipe-card h3  {
+.equipe-card h3 {
     padding-top: 10px;
     padding-bottom: 9px;
     color: black;
@@ -795,14 +576,30 @@ footer nav ul li {
     padding-bottom: 16px;
 }
 
+/*////////////////////////////////////
+//                                  //
+// STYLE DU TEMPLATE NOS PROPRIETES //
+//                                  //
+////////////////////////////////////*/
+
 .nos-proprietes h1 {
-    text-align: center  ;
+    text-align: center;
     font-family: raleway;
     padding-top: 50px;
 }
 
-.nos-actualites-titre  {
-    text-align: center  ;
+.nos-proprietes span {
+    text-transform: capitalize;
+}
+
+/*////////////////////////////////////
+//                                  //
+//      STYLE DU TEMPLATE HOME      //
+//                                  //
+////////////////////////////////////*/
+
+.nos-actualites-titre {
+    text-align: center;
     font-family: raleway;
     padding-top: 50px;
     text-decoration: none;
@@ -819,6 +616,7 @@ footer nav ul li {
     width: 550px;
     margin-bottom: 50px;
 }
+
 .actualite p a {
     text-decoration: none;
     color: #797979;
@@ -831,11 +629,12 @@ footer nav ul li {
     font-size: 1.3em;
     margin-top: 50px;
 }
+
 .actualites h2 {
-    padding-top: 20px ;
-    padding-bottom: 20px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: raleway;
-    color: #3C3C3C ;
+    color: #3C3C3C;
     font-size: 2.2em;
 }
 
@@ -846,13 +645,13 @@ footer nav ul li {
 }
 
 .button-actualite {
-    padding: 21px 35px  ;
+    padding: 21px 35px;
     background-color: #E2574C;
     border-radius: 5px;
     color: white;
     font-family: raleway;
     font-size: 1em;
-        margin-bottom: 50px;
+    margin-bottom: 50px;
     text-decoration: none;
 
 }
@@ -868,44 +667,10 @@ footer nav ul li {
     width: 550px;
 }
 
-.actualite a  {
+.actualite a {
     text-decoration: none;
     font-family: raleway;
 }
-
-.sidebar-actualite {
-    margin-top: 50px;
-}
-
-.sidebar-actualite li   {
-    list-style-type: none;
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.post-date {
-    font-family: raleway;
-padding-top: 5px;
-    font-size: 0.8em;
-    color: #797979;
-}
-
-.sidebar-actualite a {
-    text-decoration: none;
-    color: #797979;
-
-
-}
-
-.sidebar-actualite h3 {
-    font-family: raleway;
-    padding-bottom: 15px;
-    padding-top: 50px;
-    color: #3C3C3C;
-
-}
-
 
 .villes_nav {
     margin-top: 70px;
@@ -921,12 +686,17 @@ padding-top: 5px;
     color: #3C3C3C;
 }
 
+/*////////////////////////////////////
+//                                  //
+//     STYLE DU TEMPLATE CONTACT    //
+//                                  //
+////////////////////////////////////*/
+
 .titre-contact {
     padding-bottom: 50px;
     padding-top: 50px;
     margin-left: 120px;
     font-family: raleway;
-
 
 }
 
@@ -948,13 +718,12 @@ padding-top: 5px;
 }
 
 .contact-infos-adresse {
-padding: 10px 0px;
+    padding: 10px 0px;
     font-family: raleway;
     color: #3C3C3C;
 }
 
-
-.contact-infos-electroniques{
+.contact-infos-electroniques {
     padding-top: 20px;
     font-family: raleway;
     color: #3C3C3C;
@@ -970,6 +739,18 @@ padding: 10px 0px;
     font-size: 1.7em;
 }
 
+.contact-infos p {
+    text-align: left;
+    font-family: raleway;
+
+}
+
+.contact-image {
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 1400px;
+}
+
 .form {
     margin-top: 50px;
     margin-left: 500px;
@@ -981,7 +762,7 @@ padding: 10px 0px;
 }
 
 .wpcf7-submit {
-    padding: 21px 35px  ;
+    padding: 21px 35px;
     background-color: #E2574C;
     border-radius: 5px;
     color: white;
@@ -990,11 +771,12 @@ padding: 10px 0px;
     margin-top: 30px;
 
 }
+
 .wpcf7-text {
     color: #3C3C3C;
     font-family: raleway;
     font-size: initial;
-    border: 2px solid #F6F6F6 ;
+    border: 2px solid #F6F6F6;
     border-radius: 5px;
     width: 300px;
     padding: 10px 20px;
@@ -1007,7 +789,7 @@ padding: 10px 0px;
     color: #3C3C3C;
     font-family: raleway;
     font-size: initial;
-    border: 2px solid #F6F6F6 ;
+    border: 2px solid #F6F6F6;
     border-radius: 5px;
     height: 100px;
     width: 630px;
@@ -1015,34 +797,27 @@ padding: 10px 0px;
     margin-top: 30px;
 }
 
-
 .form h2 {
     font-family: raleway;
     color: #3C3C3C;
     font-size: 1.7em;
 }
 
-.contact-infos p {
-    text-align: left;
-    font-family: raleway;
-
-}
-.contact-image {
-    margin-left: 120px;
-    margin-right: 120px;
-    width: 1400px;
-}
-
+/*/////////////////////////////////////////////
+//                                           //
+//   STYLE DU TEMPLATE SINGLE-PROPRIETE.PHP  //
+//                                           //
+/////////////////////////////////////////////*/
 .single-propriete-titre {
     font-family: raleway;
     color: #3C3C3C;
-    margin-left: 130px ;
+    margin-left: 130px;
     margin-top: 90px;
 }
 
 .single-propriete-card {
     display: flex;
-    margin-left: 130px ;
+    margin-left: 130px;
     margin-top: 30px;
     margin-bottom: 100px;
 }
@@ -1053,6 +828,7 @@ padding: 10px 0px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
+
 .single-propriete-image {
     width: 800px;
 }
@@ -1097,10 +873,11 @@ padding: 10px 0px;
 
 .single-propriete-paragraphe {
     font-size: 1.2em;
+    font-family: raleway;
 }
 
 .single-propriete-proprietes h2 {
- font-family: raleway;
+    font-family: raleway;
     font-size: 1.6em;
     color: #242424;
     margin-left: 170px;
@@ -1118,7 +895,7 @@ padding: 10px 0px;
 .single-propriete-proprietes-container {
     display: flex;
     flex-wrap: wrap;
-    flex-grow:4;
+    flex-grow: 4;
     width: 1400px;
     margin-bottom: 100px;
     margin-left: 100px;
@@ -1127,7 +904,7 @@ padding: 10px 0px;
 
 .single-propriete-proprietes-card {
     width: 210px;
-    border: 1px solid ;
+    border: 1px solid;
     margin-left: 50px;
     margin-right: 50px;
     flex-grow: 4;
@@ -1156,11 +933,13 @@ padding: 10px 0px;
     color: #797979;
     font-family: raleway;
     font-size: 0.9em;
+
+    margin-top: 10px;
 }
 
 .single-propriete-proprietes-img {
     width: 100%;
-    height: 280px;
+    height: 220px;
     background-size: cover;
     font-family: raleway;
 }
@@ -1172,18 +951,11 @@ padding: 10px 0px;
     color: #3C3C3C;
 }
 
-
-.single-actualite-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    margin-bottom: 100px;
-    margin-top: 70px;
-}
-
-.single-actualite-infos {
-    width: 550px;
-}
+/*////////////////////////////////////
+//                                  //
+//        STYLE DE LA SIDEBAR       //
+//                                  //
+////////////////////////////////////*/
 
 .sidebar-actualite-2 {
     margin-top: 50px;
@@ -1191,13 +963,13 @@ padding: 10px 0px;
     padding-left: 50px;
 }
 
+.sidebar-actualite-2 li {
+    list-style-type: none;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
 
-.sidebar-actualite-2 li   {
-     list-style-type: none;
-     padding-top: 10px;
-     display: flex;
-     flex-direction: column;
- }
 .sidebar-actualite-2 a {
     text-decoration: none;
     color: #797979;
@@ -1234,6 +1006,62 @@ padding: 10px 0px;
     width: 310px;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.recent_posts_with_excerpts {
+    width: 300px;
+    font-family: raleway;
+    font-size: 1em;
+}
+
+.sidebar-actualite {
+    margin-top: 50px;
+}
+
+.sidebar-actualite li {
+    list-style-type: none;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-date {
+    font-family: raleway;
+    padding-top: 5px;
+    font-size: 0.8em;
+    color: #797979;
+}
+
+.sidebar-actualite a {
+    text-decoration: none;
+    color: #797979;
+
+}
+
+.sidebar-actualite h3 {
+    font-family: raleway;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    color: #3C3C3C;
+
+}
+
+/*////////////////////////////////////
+//                                  //
+//   STYLE DU TEMPLATE SINGLE.PHP   //
+//                                  //
+////////////////////////////////////*/
+
+.single-actualite-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.single-actualite-infos {
+    width: 550px;
 }
 
 .single-actualite-titre {
@@ -1303,6 +1131,12 @@ padding: 10px 0px;
     margin-bottom: 5px;
 }
 
+/*////////////////////////////////
+//                              //
+//    STYLE DES COMMENTAIRES    //
+//                              //
+////////////////////////////////*/
+
 .commentaires {
     margin-top: 30px;
 }
@@ -1320,10 +1154,11 @@ padding: 10px 0px;
 
 .comment-body p {
     font-family: raleway;
-  display: flex;
+    display: flex;
     flex-direction: row;
     color: #797979;
 }
+
 .comment {
     text-decoration: none;
     list-style-type: none;
@@ -1358,15 +1193,22 @@ padding: 10px 0px;
 }
 
 .comment-reply-link {
-    color: #2A8DA6;
+    color: white;
     font-family: raleway;
     text-decoration: none;
-    padding-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 20px;
+    background-color: #00A8EF;
+    border: 1px solid #00A8EF;
+    border-radius: 5px;
+    padding: 5px 5px;
 }
 
-.comment-reply-title  a {
+.reply {
+    padding-bottom: 20px;
+}
+
+.comment-reply-title a {
     color: #2A8DA6;
 }
 
@@ -1405,7 +1247,7 @@ padding: 10px 0px;
 
 .comment-respond textarea {
     width: 550px;
-    border: 1px solid #E6E6E6 ;
+    border: 1px solid #E6E6E6;
     border-radius: 10px;
 }
 
@@ -1413,11 +1255,11 @@ padding: 10px 0px;
     margin-top: 50px;
 }
 
-.recent_posts_with_excerpts {
-    width: 300px;
-    font-family: raleway;
-    font-size: 1em;
-}
+/*////////////////////////////////////
+//                                  //
+// STYLE DU TEMPLATE TAXONOMY VILLE //
+//                                  //
+////////////////////////////////////*/
 
 .container-ville {
 
@@ -1430,7 +1272,7 @@ padding: 10px 0px;
 
 .propriete-card-ville {
     width: 33%;
-    border: 1px solid ;
+    border: 1px solid;
     margin-left: 50px;
     margin-right: 50px;
     justify-content: center;
@@ -1453,7 +1295,7 @@ padding: 10px 0px;
 }
 
 .submit {
-    padding: 21px 35px  ;
+    padding: 21px 35px;
     background-color: #E2574C;
     border-radius: 5px;
     color: white;
@@ -1467,11 +1309,23 @@ padding: 10px 0px;
     flex-flow: column wrap;
 }
 
-#map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
-    height:600px;
+/*////////////////////////////////////
+//                                  //
+//     STYLE MAP OPENSTREET MAP     //
+//                                  //
+////////////////////////////////////*/
+
+#map { /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+    height: 600px;
     width: 1400px;
     margin-left: 120px;
 }
+
+/*////////////////////////////////////
+//                                  //
+//      STYLE DU TEMPLATE AGENT     //
+//                                  //
+////////////////////////////////////*/
 
 .single-agent-titre {
     font-family: raleway;
@@ -1482,7 +1336,7 @@ padding: 10px 0px;
 
 .single-agent-card {
     display: flex;
-    margin-left: 130px ;
+    margin-left: 130px;
     margin-top: 30px;
     margin-bottom: 100px;
 }
@@ -1523,7 +1377,6 @@ padding: 10px 0px;
     color: #3C3C3C;
 }
 
-
 .single-agent-mail span {
     padding-left: 130px;
     color: #3C3C3C;
@@ -1553,4 +1406,120 @@ padding: 10px 0px;
 .single-agent-paragraphe {
     font-size: 1.2em;
     padding-top: 10px;
+}
+
+
+/*////////////////////////////////////
+//                                  //
+//     STYLE DU TEMPLATE FOOTER     //
+//                                  //
+////////////////////////////////////*/
+
+footer {
+    background-color: #303030;
+    font-family: raleway;
+    font-weight: normal;
+    font-size: 0.9em;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li {
+    list-style-type: none;
+}
+
+.footer-menu-1 {
+    float: left;
+    padding-left: 65px;
+    padding-top: 65px;
+}
+
+.footer-menu-logo {
+    width: 150px;
+}
+
+.footer-menu-menusecondaire {
+    margin-top: 15px;
+}
+
+.menu-menu-principal-container ul li a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.menu-menu-reseau-sociaux-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 150px;
+    color: black;
+}
+
+.footer-menu-menuprincipal nav ul li a {
+    color: white;
+}
+
+.footer-menu-menusecondaire li {
+    color: black;
+    width: 33px;
+    height: 33px;
+    padding-top: 6px;
+    border: 1px #303030 solid;
+    border-radius: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.footer-menu-menusecondaire nav ul li a {
+    color: #303030;
+    text-decoration: none;
+}
+
+.footer-menu-menusecondaire nav ul li:hover a {
+    color: white;
+}
+
+.footer-menu-menusecondaire nav ul li:hover {
+    background-color: #303030;
+}
+
+.footer-menu-2 {
+    font-family: raleway;
+    display: inline-block;
+    padding-top: 65px;
+    padding-left: 200px;
+    padding-bottom: 65px;
+    line-height: 30px;
+}
+
+.footer-menu-menuprincipal {
+    margin-top: 13px;
+}
+
+.footer-menu-3 {
+    font-family: raleway;
+    padding-top: 65px;
+    float: right;
+    color: white;
+    padding-right: 200px;
+}
+
+.footer-menu-3 h2 {
+    padding-bottom: 20px;
+}
+
+.footer-menu-3 p {
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+.footer-menu-3 a {
+    margin-top: 50px;
+    color: #E2574C;
 }
